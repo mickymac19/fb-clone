@@ -26,15 +26,20 @@ function Header() {
             </div>
             <div className="header__input">
                 <SearchIcon />
-                <input type="text"/>
+                <input placeholder='Search Facebook' type="text"/>
             </div>
             <div className="header__center">
-                <div className="header__option">
-                    <HomeIcon fontSize="large"/>
+
+                 {/* header is the block option is the element
+                 header__option--active is the active button */}
+
+                <div className="header__option header__option--active">
+                    <HomeIcon fontSize="large"/> 
                 </div>
                 <div className="header__option">
                     <FlagIcon fontSize="large"/>
                 </div>
+               
                 <div className="header__option">
                     <SubscriptionsOutlinedIcon fontSize="large"/>
                 </div>
